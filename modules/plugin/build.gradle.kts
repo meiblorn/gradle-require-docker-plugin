@@ -36,7 +36,7 @@ afterEvaluate {
 }
 
 dependencies {
-    shadow("com.bmuschko:gradle-docker-plugin:9.0.1")
+    shadow("com.bmuschko:gradle-docker-plugin:9.1.0")
 
     afterEvaluate {
         val functionalTestImplementation: Configuration by configurations.getting
