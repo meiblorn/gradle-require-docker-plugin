@@ -8,7 +8,7 @@ import org.jetbrains.kotlin.gradle.plugin.KotlinPluginWrapper
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.7.10" apply false
+    kotlin("jvm") version "1.8.0" apply false
     kotlin("kapt") version "1.7.10" apply false
     id("com.adarshr.test-logger") version "3.2.0" apply false
     id("com.diffplug.spotless") version "6.12.0"
